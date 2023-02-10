@@ -3,14 +3,14 @@ int y ;
 int s = 100;
 
 public void setup(){
-  size(500,500);
+  size(700,600);
   background(#c6e8f7);
   frameRate(15);
 }
 
 public void draw(){
   myFractal(x,y,s);
-  heart(250,250);
+  heart(350,300);
 }
 
 public void mousePressed(){
